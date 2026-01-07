@@ -1,5 +1,21 @@
-from app import add
+from app import add, multiply, divide, subtract, greet
 
 
-def test_addition():
-    assert add(2, 3) == 7
+def test_add():
+    assert add(2, 3) == 5
+
+
+def test_multiply():
+    assert multiply(4, 5) == 20
+
+
+def test_divide():
+    assert divide(10, 2) == 5.0
+
+
+def test_subtract():
+    assert subtract(10, 3) == 7
+
+
+def test_greet():
+    assert greet("World") == "Hello, World"
