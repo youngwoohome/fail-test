@@ -16,4 +16,4 @@ def subtract(a: int, b: int) -> int:
 
 
 def greet(name: str) -> str:
-    return "Hello, " + nmaee  # 오타 에러: name -> nmae
+    return "Hello, " + nmaeeee  # 오타 에러: name -> nmae
